@@ -7,7 +7,8 @@ const long snakelengthupdatedelay = 5000;
 
 // Variables
 byte snake[snakemaxlength]; // stores what LEDs the snake is on. 0th element is the head
-int snakedisplaylength = 4;
+int snakedisplaylength = snakemaxlength;
+//int snakedisplaylength = 4;
 boolean snakeonvertex = true;
 
 // For timing
